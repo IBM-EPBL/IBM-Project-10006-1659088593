@@ -27,8 +27,8 @@ void loop()
  }
   else
   {
-   digitalWrite(led1,HIGH);
-   digitalWrite(buzzer,HIGH);
+   digitalWrite(led1,LOW);
+   digitalWrite(buzzer,LOW);
     
   }
   Serial.print("in DegreeC=");
