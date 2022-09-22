@@ -20,7 +20,7 @@ void loop()
   float mv=(val/1024.0)*5000;
   float cel=mv/10;
   gas=analogRead(A1);
- if((cel>=27)||((gas)==HIGH))
+ if((cel>=27)||(gas>=0))
  {
    digitalWrite(led1,HIGH);
    digitalWrite(buzzer,HIGH);
